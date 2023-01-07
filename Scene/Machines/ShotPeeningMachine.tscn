@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scene/Machines/OilSealTrimmingMachine.tscn" type="PackedScene" id=2]
+[ext_resource path="res://filesystem/machines/ShotPeeningMachine.png" type="Texture" id=3]
+
+[node name="ShotPeeningMachine" instance=ExtResource( 2 )]
+
+[node name="CollisionShape2D" parent="." index="0"]
+position = Vector2( 1.19209e-07, 0 )
+
+[node name="Icon" parent="." index="1"]
+position = Vector2( 0, 4.23516e-22 )
+scale = Vector2( 0.419885, 0.423077 )
+texture = ExtResource( 3 )

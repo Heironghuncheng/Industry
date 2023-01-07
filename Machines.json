@@ -1,0 +1,62 @@
+{
+    "steel_strip_furnace": {
+        "row": 2,
+        "column": 4,
+        "type": "Machines/SteelStripFurnace",
+        "kinds":{
+            "A": [0.9,8,5],
+            "B": [0.85,6,5],
+            "C": [0.6,6,2]
+        }
+    },
+    "assembly_machine": {
+        "row": 2,
+        "column": 4,
+        "type": "Machines/AssemblyMachine",
+        "kinds":{
+            "A": [0.98,8,4],
+            "B": [0.9,6,4.5],
+            "C": [0.85,6,3]
+        }
+    },
+    "electron_beam_welding_machine": {
+        "row": 2,
+        "column": 2,
+        "type": "Machines/ElectronBeamWeldingMachine",
+        "kinds":{
+            "A": [0.98,6,5],
+            "B": [0.9,5,4.5],
+            "C": [0.8,5,3]
+        }
+    },
+    "oil_seal_trimming_machine": {
+        "row": 2,
+        "column": 2,
+        "type": "Machines/OilSealTrimmingMachine",
+        "kinds":{
+            "A": [0.98,8,4],
+            "B": [0.9,6,4.5],
+            "C": [0.85,6,3]
+        }
+    },
+    "shot_peening_machine": {
+        "row": 2,
+        "column": 2,
+        "type": "Machines/ShotPeeningMachine",
+        "kinds":{
+            "A": [0.95,4,2],
+            "B": [0.85,3,1],
+            "C": [0.75,3,0.5]
+        }
+    },
+    "None": {
+        "row": 0,
+        "column": 0,
+        "type": "",
+        "kinds":{
+            "A": [],
+            "B": [],
+            "C": []
+        }
+    }
+}

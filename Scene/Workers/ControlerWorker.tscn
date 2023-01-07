@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://filesystem/peoples/contorler_worker.png" type="Texture" id=1]
+[ext_resource path="res://Scene/Workers/Peoples.tscn" type="PackedScene" id=2]
+
+[node name="ControlerWorker" instance=ExtResource( 2 )]
+
+[node name="Sprite" parent="." index="1"]
+position = Vector2( -3.8147e-06, 1.19189 )
+scale = Vector2( -0.0811988, 0.081349 )
+texture = ExtResource( 1 )
